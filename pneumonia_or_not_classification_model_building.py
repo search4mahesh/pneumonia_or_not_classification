@@ -113,17 +113,4 @@ for epoch in range(num_epochs):
         best_accuracy = accuracy
         print("saving best model with best accuracy " + str(best_accuracy))
         torch.save(model, 'pneumonia_or_not_classification_vgg16_model_v1.pt')
-
-
 #print('Test Accuracy of the model on the 10000 test images: {} %'.format(best_accuracy))
-
-
-
-
-
-        
-
-
-
-
-
